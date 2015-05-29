@@ -1,4 +1,6 @@
 # csvgrapher
+
+grapher.py:
 Reads data sequentially out of a file in CSV format and displays it on a graph in real time using Matplotlib.
 
 Required Arguments:
@@ -19,3 +21,5 @@ Optional Arguments:
 
 The script can be stopped with ctrl-c, isn't it fancy?
 
+datagen.py:
+Will generate data with labels into a file called datapipe which can be used to test the grapher. Can also be killed with ctrl-c.
